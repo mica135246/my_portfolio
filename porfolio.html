@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Micah Abel — Portfolio</title>
+  <!-- Favicon: your initials as a tiny SVG icon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%236c5ce7'/%3E%3Ctext x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' text-anchor='middle' fill='white'%3EMA%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER + NAVIGATION ============ -->
+  <header class="navbar">
+    <a href="#hero" class="logo">Micah Abel</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#learning">Learning</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <p class="greeting">Hi, I'm Micah Abel</p>
+        <h1>Full-Stack Developer in training</h1>
+        <p class="pitch">
+          I'm learning to build clean, friendly websites with HTML, CSS, and JavaScript.
+          This is my first portfolio — <em>take a look around!</em>
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <p class="last-updated">Last updated: November 2026</p>
+      </div>
+      <img
+        class="avatar"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236c5ce7'/%3E%3Cstop offset='1' stop-color='%2300cec9'/%3E%3C/linearGradient%3E%3C/defs%3E%3Ccircle cx='100' cy='100' r='100' fill='url(%23g)'/%3E%3Ccircle cx='100' cy='80' r='32' fill='white' opacity='0.95'/%3E%3Cpath d='M40 180 Q100 120 160 180 Z' fill='white' opacity='0.95'/%3E%3Ctext x='100' y='195' font-family='Arial' font-size='14' font-weight='bold' text-anchor='middle' fill='%236c5ce7'%3EMA%3C/text%3E%3C/svg%3E"
+        alt="Illustrated avatar of Micah Abel with initials MA on a purple-to-teal gradient" />
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div>
+          <p>
+            I'm a self-taught beginner developer. I started learning HTML, CSS,
+            and JavaScript a few months ago, and I've been hooked ever since.
+            Right now I'm focused on building a strong foundation before diving
+            into frameworks and back-end technologies.
+          </p>
+          <p>
+            I love the feeling of turning a blank file into something that
+            actually works in a browser. When I'm not coding, you'll find me
+            reading tech blogs, exploring new tools, and experimenting with
+            small side projects.
+          </p>
+        </div>
+        <ul class="facts">
+          <li><strong>Name:</strong> Micah Abel</li>
+          <li><strong>Email:</strong> micah@example.com</li>
+          <li><strong>Status:</strong> Learning &amp; open to small projects</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CURRENTLY LEARNING (with table) ============ -->
+    <section id="learning" class="section section-alt">
+      <h2 class="section-title">Currently Learning</h2>
+      <p class="now-text">
+        Right now I'm practicing CSS Grid and Flexbox layouts, and starting
+        to explore JavaScript so I can make my sites interactive.
+      </p>
+
+      <table class="schedule">
+        <caption>My Weekly Learning Schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Focus</th>
+            <th scope="col">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML &amp; CSS practice</td>
+            <td>2 hours</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>JavaScript basics</td>
+            <td>3 hours</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Build small projects</td>
+            <td>2 hours</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Free coding session</td>
+            <td>4 hours</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Git &amp; GitHub</li>
+        <li>VS Code</li>
+        <li>Responsive Design</li>
+      </ul>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section section-alt">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-thumb thumb-1"></div>
+          <h3>Personal Portfolio</h3>
+          <p>The website you're looking at right now. Built with HTML and CSS only.</p>
+          <a href="#">View project &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-2"></div>
+          <h3>Recipe Page</h3>
+          <p>A simple page showing one of my favorite recipes, with ingredients and steps.</p>
+          <a href="#">View project &rarr;</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb thumb-3"></div>
+          <h3>Café Landing Page</h3>
+          <p>A one-page site for a fictional coffee shop, with a menu and contact info.</p>
+          <a href="#">View project &rarr;</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ============ OUTSIDE OF CODING ============ -->
+    <section class="section">
+      <h2 class="section-title">Outside of Coding</h2>
+      <p class="hobbies-text">
+        When I'm not at my computer, I enjoy reading tech blogs, exploring new
+        tools, listening to music, and going for walks to clear my head.
+      </p>
+    </section>
+
+    <!-- ============ CONTACT (with form) ============ -->
+    <section id="contact" class="section section-alt">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">
+        Want to work together, share feedback, or just say hi?
+        Send me a message using the form below.
+      </p>
+
+      <form class="contact-form" onsubmit="event.preventDefault();">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me what's on your mind..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+
+      <p class="social-intro">Or find me on:</p>
+      <div class="social-links">
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <p>&copy; 2026 Micah Abel</p>
+    <p>Built with HTML &amp; CSS</p>
+  </footer>
+
+</body>
+</html>
